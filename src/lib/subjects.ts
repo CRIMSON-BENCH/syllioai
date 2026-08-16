@@ -158,3 +158,14 @@ export function getAllSubjectSlugs(): { slug: string }[] {
 export function getSubjectsByCategory(category: string): Subject[] {
   return subjects.filter((s) => s.category === category);
 }
+
+const TOP_SUBJECT_SLUGS = new Set([
+  'algebra', 'calculus', 'statistics', 'biology', 'chemistry', 'physics',
+  'computer-science', 'english', 'psychology', 'economics', 'history',
+  'political-science', 'sociology', 'philosophy', 'accounting', 'finance',
+  'nursing-fundamentals', 'spanish', 'writing', 'business-law',
+]);
+
+export const topSubjects: Subject[] = subjects.filter(
+  (s) => TOP_SUBJECT_SLUGS.has(s.slug)
+);

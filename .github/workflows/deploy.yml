@@ -17,6 +17,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
 
@@ -30,6 +31,8 @@ jobs:
 
       - name: Build static site
         run: npm run build
+        env:
+          NODE_OPTIONS: "--max-old-space-size=7168"
 
       - uses: actions/configure-pages@v5
 

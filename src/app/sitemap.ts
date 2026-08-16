@@ -15,8 +15,6 @@ import { getAllCountrySlugs, countries } from "@/lib/countries";
 import { getAllCitySlugs, cities } from "@/lib/cities";
 import { getAllInternationalSchoolSlugs } from "@/lib/international-schools";
 
-export const dynamic = "force-static";
-
 const BASE = "https://www.syllioai.com";
 
 const GRADES = [
