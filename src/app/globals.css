@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Syllio brand palette — violet/purple primary, teal secondary */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-violet-brand: #7C5FD4;
+  --color-violet-light: #9B82E8;
+  --color-violet-dark: #5A3FB0;
+  --color-teal-brand: #45D4DA;
+  --color-teal-dark: #2BAAAF;
+
+  --color-slate-50: #F3F0FF;
+  --color-slate-100: #E8E3FF;
+  --color-slate-200: #D0C8F0;
+  --color-slate-800: #1D1838;
+  --color-slate-900: #130F24;
+  --color-slate-950: #0A0714;
+
+  --color-surface: #FFFFFF;
+  --color-surface-dark: #1D1838;
+  --color-border-light: #E3DDF8;
+  --color-border-dark: #2D2550;
+
+  --color-green: #1E9A6E;
+  --color-green-bg: #EDFAF4;
+  --color-amber: #C47C0A;
+  --color-red: #C43F3F;
+
+  --font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "SF Mono", "Fira Code", Consolas, monospace;
+}
+
+:root {
+  --background: #F3F0FF;
+  --foreground: #130F24;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0A0714;
+    --foreground: #EDE9FA;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
