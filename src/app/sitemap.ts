@@ -38,6 +38,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/cities`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE}/contact`, lastModified: now, changeFrequency: "yearly", priority: 0.4 },
     { url: `${BASE}/lesson-plans`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/tutors`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
   ];
 
   // Universities (index)

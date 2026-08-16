@@ -207,6 +207,22 @@ export default async function CountrySubjectPage({
           </section>
         )}
 
+        {/* Tutoring CTA */}
+        <div className="border border-teal-brand/30 bg-teal-brand/5 rounded-2xl p-6 mb-8 flex flex-col sm:flex-row items-start sm:items-center gap-4 justify-between">
+          <div>
+            <h2 className="font-bold text-lg mb-1">Need help with {subject.name} in {country.name}?</h2>
+            <p className="text-sm text-slate-500 dark:text-slate-400">
+              Get matched with an online tutor — sessions synced to your Syllio deadline calendar, wherever you study.
+            </p>
+          </div>
+          <Link
+            href="/tutors"
+            className="shrink-0 bg-teal-brand text-slate-950 px-5 py-2.5 rounded-full font-semibold text-sm hover:opacity-90 transition-opacity whitespace-nowrap"
+          >
+            Find a tutor →
+          </Link>
+        </div>
+
         <div className="bg-slate-950 text-white rounded-2xl p-8 text-center mb-8">
           <h2 className="text-xl font-bold mb-2">
             Start your {subject.name} semester in {country.name}
