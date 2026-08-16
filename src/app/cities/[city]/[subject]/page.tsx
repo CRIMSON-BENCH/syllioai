@@ -5,12 +5,12 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import Breadcrumb from "@/components/Breadcrumb";
 import { cities, getCityBySlug, getAllCitySlugs } from "@/lib/cities";
-import { subjects, getSubjectBySlug } from "@/lib/subjects";
+import { subjects, topSubjects, getSubjectBySlug } from "@/lib/subjects";
 
 export function generateStaticParams() {
   const params: { city: string; subject: string }[] = [];
   for (const city of cities) {
-    for (const subject of subjects) {
+    for (const subject of topSubjects) {
       params.push({ city: city.slug, subject: subject.slug });
     }
   }

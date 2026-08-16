@@ -5,13 +5,13 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import Breadcrumb from "@/components/Breadcrumb";
 import { counties, getCountyBySlug, getCountiesByState } from "@/lib/counties";
-import { subjects, getSubjectBySlug } from "@/lib/subjects";
+import { subjects, topSubjects, getSubjectBySlug } from "@/lib/subjects";
 import MonetizationStrip from "@/components/MonetizationStrip";
 
 export function generateStaticParams() {
   const params: { slug: string; subject: string }[] = [];
   for (const county of counties) {
-    for (const subject of subjects) {
+    for (const subject of topSubjects) {
       params.push({ slug: county.slug, subject: subject.slug });
     }
   }
