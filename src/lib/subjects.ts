@@ -160,34 +160,25 @@ export function getSubjectsByCategory(category: string): Subject[] {
 }
 
 const TOP_SUBJECT_SLUGS = new Set([
-  // STEM (28)
-  'algebra', 'geometry', 'trigonometry', 'pre-calculus', 'calculus', 'ap-calculus',
-  'statistics', 'ap-statistics', 'linear-algebra', 'biology', 'ap-biology',
-  'chemistry', 'ap-chemistry', 'physics', 'ap-physics', 'environmental-science',
-  'computer-science', 'ap-computer-science', 'data-structures', 'algorithms',
-  'machine-learning', 'organic-chemistry', 'biochemistry', 'genetics',
-  'anatomy-and-physiology', 'electrical-engineering', 'mechanical-engineering',
-  'civil-engineering',
-  // Humanities (14)
-  'english-literature', 'ap-english-literature', 'creative-writing',
-  'world-history', 'ap-world-history', 'us-history', 'ap-us-history',
-  'european-history', 'art-history', 'philosophy', 'ethics',
-  'religious-studies', 'linguistics', 'comparative-literature',
-  // Social Sciences (12)
-  'psychology', 'ap-psychology', 'sociology', 'anthropology',
-  'economics', 'ap-economics', 'macroeconomics', 'microeconomics',
-  'political-science', 'international-relations', 'geography', 'criminal-justice',
-  // Arts (8)
-  'music-theory', 'visual-art', 'photography', 'film-studies',
-  'theater', 'graphic-design', 'digital-media', 'drawing',
-  // Business (8)
+  // STEM (15)
+  'algebra', 'calculus', 'statistics', 'biology', 'chemistry',
+  'physics', 'computer-science', 'organic-chemistry', 'anatomy-and-physiology',
+  'environmental-science', 'ap-calculus', 'ap-biology', 'ap-chemistry',
+  'ap-physics', 'ap-computer-science',
+  // Humanities (7)
+  'english-literature', 'us-history', 'world-history', 'philosophy',
+  'creative-writing', 'art-history', 'ap-us-history',
+  // Social Sciences (6)
+  'psychology', 'economics', 'sociology', 'political-science',
+  'ap-psychology', 'criminal-justice',
+  // Arts (4)
+  'music-theory', 'visual-art', 'photography', 'graphic-design',
+  // Business (4)
   'introduction-to-business', 'marketing', 'accounting', 'finance',
-  'business-law', 'entrepreneurship', 'management', 'financial-accounting',
-  // Health (5)
-  'nutrition', 'public-health', 'nursing-fundamentals', 'kinesiology',
-  'medical-terminology',
-  // Languages (5)
-  'spanish', 'french', 'mandarin-chinese', 'japanese', 'arabic',
+  // Health (2)
+  'nutrition', 'nursing-fundamentals',
+  // Languages (2)
+  'spanish', 'french',
 ]);
 
 export const topSubjects: Subject[] = subjects.filter(
