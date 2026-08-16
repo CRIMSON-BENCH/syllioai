@@ -106,7 +106,7 @@ export default async function LessonPlanPage({
           </p>
           <div className="flex gap-3 flex-wrap">
             <Link
-              href="https://syllioai.com/auth"
+              href="https://app.syllioai.com/auth"
               className="bg-teal-brand text-slate-950 px-6 py-3 rounded-full font-semibold hover:opacity-90 transition-opacity"
             >
               Generate my lesson plan free
@@ -195,7 +195,7 @@ export default async function LessonPlanPage({
             Teacher Starter plan — from $5.99/month. First lesson plan is free.
           </p>
           <Link
-            href="https://syllioai.com/auth"
+            href="https://app.syllioai.com/auth"
             className="bg-teal-brand text-slate-950 px-6 py-3 rounded-full font-semibold hover:opacity-90 transition-opacity inline-block"
           >
             Get started free

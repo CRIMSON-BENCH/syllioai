@@ -80,7 +80,7 @@ export default async function CountryPage({
           </p>
           <div className="flex gap-3 flex-wrap">
             <Link
-              href="https://syllioai.com/auth"
+              href="https://app.syllioai.com/auth"
               className="bg-violet-brand text-white px-6 py-3 rounded-full font-semibold hover:bg-violet-dark transition-colors"
             >
               Get Syllio free
@@ -199,7 +199,7 @@ export default async function CountryPage({
             Free for students. Teacher plans from $5.99/mo. Works in {country.languages[0]}.
           </p>
           <Link
-            href="https://syllioai.com/auth"
+            href="https://app.syllioai.com/auth"
             className="bg-violet-brand text-white px-6 py-3 rounded-full font-semibold hover:bg-violet-dark transition-colors inline-block"
           >
             Get started free

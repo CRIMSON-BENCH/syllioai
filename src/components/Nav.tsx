@@ -15,13 +15,13 @@ export default function Nav() {
         </div>
         <div className="flex items-center gap-3">
           <Link
-            href="https://syllioai.com/auth"
+            href="https://app.syllioai.com/auth"
             className="text-sm text-slate-600 dark:text-slate-400 hover:text-violet-brand"
           >
             Sign in
           </Link>
           <Link
-            href="https://syllioai.com/auth"
+            href="https://app.syllioai.com/auth"
             className="text-sm bg-violet-brand text-white px-4 py-2 rounded-full hover:bg-violet-dark transition-colors"
           >
             Get started

@@ -88,7 +88,7 @@ export default async function CountySubjectPage({
             calendar automatically. Free to start.
           </p>
           <Link
-            href="https://syllioai.com/auth"
+            href="https://app.syllioai.com/auth"
             className="bg-teal-brand text-slate-950 px-6 py-3 rounded-full font-semibold hover:opacity-90 transition-opacity"
           >
             Scan my {subject.name} syllabus free
@@ -166,7 +166,7 @@ export default async function CountySubjectPage({
           <h2 className="text-xl font-bold mb-2">Never miss a {subject.name} deadline</h2>
           <p className="text-slate-400 text-sm mb-5">Free for students. No credit card needed.</p>
           <Link
-            href="https://syllioai.com/auth"
+            href="https://app.syllioai.com/auth"
             className="bg-teal-brand text-slate-950 px-6 py-3 rounded-full font-semibold hover:opacity-90 transition-opacity inline-block"
           >
             Get started free

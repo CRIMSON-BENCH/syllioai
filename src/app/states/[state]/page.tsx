@@ -127,7 +127,7 @@ export default async function StatePage({ params }: Props) {
           </p>
           <div className="flex gap-3 flex-wrap">
             <Link
-              href="https://syllioai.com/auth"
+              href="https://app.syllioai.com/auth"
               className="bg-violet-brand text-white px-6 py-3 rounded-full font-semibold hover:bg-violet-dark transition-colors"
             >
               Get started free
@@ -330,7 +330,7 @@ export default async function StatePage({ params }: Props) {
             semester, build syllabi, manage clubs, and beat burnout — starting free.
           </p>
           <Link
-            href="https://syllioai.com/auth"
+            href="https://app.syllioai.com/auth"
             className="inline-block bg-violet-brand text-white px-7 py-3 rounded-full font-semibold hover:bg-violet-dark transition-colors"
           >
             Get started free

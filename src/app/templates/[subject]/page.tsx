@@ -94,7 +94,7 @@ export default async function SubjectTemplatePage({
           </p>
           <div className="flex gap-3 flex-wrap">
             <Link
-              href="https://syllioai.com/auth"
+              href="https://app.syllioai.com/auth"
               className="bg-violet-brand text-white px-6 py-3 rounded-full font-semibold hover:bg-violet-dark transition-colors"
             >
               Build my {subject.name} syllabus free
@@ -168,7 +168,7 @@ export default async function SubjectTemplatePage({
             Syllio yet, photograph the syllabus and Syllio&apos;s AI extracts every due date.
           </p>
           <Link
-            href="https://syllioai.com/auth"
+            href="https://app.syllioai.com/auth"
             className="text-sm font-semibold text-violet-brand hover:underline"
           >
             Scan my {subject.name} syllabus free →
@@ -205,7 +205,7 @@ export default async function SubjectTemplatePage({
             Teacher Starter plan — from $5.99/month. First syllabus is free.
           </p>
           <Link
-            href="https://syllioai.com/auth"
+            href="https://app.syllioai.com/auth"
             className="bg-violet-brand text-white px-6 py-3 rounded-full font-semibold hover:bg-violet-dark transition-colors inline-block"
           >
             Start for free

@@ -69,7 +69,7 @@ export default function TemplatesPage() {
             Syllio AI can build a syllabus for any subject. Just describe your course.
           </p>
           <Link
-            href="https://syllioai.com/auth"
+            href="https://app.syllioai.com/auth"
             className="bg-violet-brand text-white px-6 py-3 rounded-full font-semibold hover:bg-violet-dark transition-colors inline-block"
           >
             Build a custom syllabus

@@ -97,7 +97,7 @@ export default async function UseCasePage({ params }: Props) {
             {useCase.subheadline}
           </p>
           <Link
-            href="https://syllioai.com/auth"
+            href="https://app.syllioai.com/auth"
             className="inline-block bg-violet-brand text-white px-8 py-3.5 rounded-full font-semibold hover:bg-violet-dark transition-colors text-base"
           >
             {useCase.ctaText}
@@ -182,7 +182,7 @@ export default async function UseCasePage({ params }: Props) {
           </p>
           <div className="flex gap-3 justify-center flex-wrap">
             <Link
-              href="https://syllioai.com/auth"
+              href="https://app.syllioai.com/auth"
               className="bg-violet-brand text-white px-7 py-3 rounded-full font-semibold hover:bg-violet-dark transition-colors"
             >
               {useCase.ctaText}

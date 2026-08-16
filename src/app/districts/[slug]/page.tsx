@@ -186,7 +186,7 @@ export default async function DistrictPage({
           </p>
           <div className="flex flex-wrap gap-3">
             <Link
-              href="https://syllioai.com/auth"
+              href="https://app.syllioai.com/auth"
               className="bg-violet-brand text-white px-6 py-3 rounded-full font-semibold hover:bg-violet-dark transition-colors"
             >
               Start free — students & teachers
@@ -291,7 +291,7 @@ export default async function DistrictPage({
             ))}
           </div>
           <Link
-            href="https://syllioai.com/auth"
+            href="https://app.syllioai.com/auth"
             className="inline-block bg-teal-brand text-slate-950 px-6 py-3 rounded-full font-semibold hover:opacity-90 transition-opacity text-sm"
           >
             Create a teacher account — free
@@ -418,7 +418,7 @@ export default async function DistrictPage({
           </p>
           <div className="flex gap-3 justify-center flex-wrap">
             <Link
-              href="https://syllioai.com/auth"
+              href="https://app.syllioai.com/auth"
               className="bg-violet-brand text-white px-6 py-3 rounded-full font-semibold hover:bg-violet-dark transition-colors"
             >
               Create your free account

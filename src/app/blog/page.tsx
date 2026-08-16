@@ -161,7 +161,7 @@ export default function BlogIndexPage() {
             less time organizing and more time actually learning.
           </p>
           <Link
-            href="https://syllioai.com/auth"
+            href="https://app.syllioai.com/auth"
             className="inline-block bg-violet-brand text-white px-7 py-3 rounded-full font-semibold hover:bg-violet-dark transition-colors"
           >
             Get started free

@@ -56,7 +56,7 @@ export default function UniversitiesPage() {
         </p>
         <div className="flex gap-3 mb-10">
           <Link
-            href="https://syllioai.com/auth"
+            href="https://app.syllioai.com/auth"
             className="text-sm bg-violet-brand text-white px-5 py-2.5 rounded-full font-semibold hover:bg-violet-dark transition-colors"
           >
             Get Syllio free

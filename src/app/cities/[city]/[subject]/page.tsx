@@ -88,7 +88,7 @@ export default async function CitySubjectPage({
           </p>
           <div className="flex gap-3 flex-wrap">
             <Link
-              href="https://syllioai.com/auth"
+              href="https://app.syllioai.com/auth"
               className="bg-teal-brand text-slate-950 px-6 py-3 rounded-full font-semibold hover:opacity-90 transition-opacity"
             >
               Scan my {subject.name} syllabus free
@@ -212,7 +212,7 @@ export default async function CitySubjectPage({
             Free for students. No credit card. Works at every {city.name} university.
           </p>
           <Link
-            href="https://syllioai.com/auth"
+            href="https://app.syllioai.com/auth"
             className="bg-teal-brand text-slate-950 px-6 py-3 rounded-full font-semibold hover:opacity-90 transition-opacity inline-block"
           >
             Get started free

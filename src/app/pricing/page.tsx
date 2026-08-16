@@ -33,7 +33,7 @@ const studentPlans = [
     price: null,
     label: "Free",
     cta: "Start free",
-    href: "https://syllioai.com/auth",
+    href: "https://app.syllioai.com/auth",
     highlight: false,
     features: [
       "Unified master calendar",
@@ -51,7 +51,7 @@ const studentPlans = [
     annualPrice: 39.99,
     label: "$4.99",
     cta: "Get AI Pro",
-    href: "https://syllioai.com/auth",
+    href: "https://app.syllioai.com/auth",
     highlight: true,
     badge: "Most popular",
     features: [
@@ -69,7 +69,7 @@ const studentPlans = [
     annualPrice: 79.99,
     label: "$9.99",
     cta: "Go OS",
-    href: "https://syllioai.com/auth",
+    href: "https://app.syllioai.com/auth",
     highlight: false,
     features: [
       "Everything in AI Pro",
@@ -90,7 +90,7 @@ const teacherPlans = [
     price: 5.99,
     annualPrice: 49.99,
     cta: "Start teaching",
-    href: "https://syllioai.com/auth",
+    href: "https://app.syllioai.com/auth",
     highlight: false,
     badge: "New",
     vs: "vs. MagicSchool AI $8.33/mo",
@@ -109,7 +109,7 @@ const teacherPlans = [
     price: 11.99,
     annualPrice: 99.99,
     cta: "Go Pro",
-    href: "https://syllioai.com/auth",
+    href: "https://app.syllioai.com/auth",
     highlight: true,
     badge: "New",
     vs: "vs. TeachQuill $15–25/mo",
@@ -129,7 +129,7 @@ const teacherPlans = [
     price: 14.99,
     annualPrice: 119.99,
     cta: "Get the bundle",
-    href: "https://syllioai.com/auth",
+    href: "https://app.syllioai.com/auth",
     highlight: false,
     badge: "New",
     features: [
@@ -419,7 +419,7 @@ export default function PricingPage() {
             </div>
             <p className="text-xs text-slate-400 mb-5">${parentPlan.annualPrice}/yr · Student must have a free or paid Syllio account</p>
             <Link
-              href="https://syllioai.com/auth"
+              href="https://app.syllioai.com/auth"
               className="inline-block text-sm font-semibold py-2.5 px-6 rounded-full bg-violet-brand text-white hover:bg-violet-dark transition-colors"
             >
               Add Parent Portal
@@ -450,7 +450,7 @@ export default function PricingPage() {
             </div>
             <p className="text-xs text-slate-400 mb-5">${counselorPlan.annualPrice}/yr · Up to 50 students</p>
             <Link
-              href="https://syllioai.com/auth"
+              href="https://app.syllioai.com/auth"
               className="inline-block text-sm font-semibold py-2.5 px-6 rounded-full bg-violet-brand text-white hover:bg-violet-dark transition-colors"
             >
               Start counselor trial
@@ -493,7 +493,7 @@ export default function PricingPage() {
                 ))}
               </ul>
               <Link
-                href={plan.contactSales ? "/contact" : "https://syllioai.com/auth"}
+                href={plan.contactSales ? "/contact" : "https://app.syllioai.com/auth"}
                 className="block text-center text-sm font-semibold py-2.5 rounded-full border border-slate-300 dark:border-slate-700 hover:border-violet-brand transition-colors"
               >
                 {plan.cta}
@@ -516,7 +516,7 @@ export default function PricingPage() {
               </div>
               <p className="text-sm text-slate-500 dark:text-slate-400 mb-4 flex-1">{p.desc}</p>
               <Link
-                href="https://syllioai.com/auth"
+                href="https://app.syllioai.com/auth"
                 className="text-sm font-semibold text-violet-brand hover:underline"
               >
                 {p.cta} →
@@ -681,7 +681,7 @@ export default function PricingPage() {
           <h2 className="text-2xl font-extrabold tracking-tight mb-3">Ready to start?</h2>
           <p className="text-slate-500 dark:text-slate-400 mb-6">Free forever for the basics.</p>
           <Link
-            href="https://syllioai.com/auth"
+            href="https://app.syllioai.com/auth"
             className="bg-violet-brand text-white px-8 py-3 rounded-full font-semibold hover:bg-violet-dark transition-colors inline-block"
           >
             Create your free account

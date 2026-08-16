@@ -199,7 +199,7 @@ export default async function CountyPage({
           </p>
           <div className="flex flex-wrap gap-3">
             <Link
-              href="https://syllioai.com/auth"
+              href="https://app.syllioai.com/auth"
               className="bg-violet-brand text-white px-6 py-3 rounded-full font-semibold hover:bg-violet-dark transition-colors"
             >
               Start free — no credit card
@@ -299,7 +299,7 @@ export default async function CountyPage({
             ))}
           </div>
           <Link
-            href="https://syllioai.com/auth"
+            href="https://app.syllioai.com/auth"
             className="inline-block bg-violet-brand text-white px-6 py-3 rounded-full font-semibold hover:bg-violet-dark transition-colors text-sm"
           >
             Start free — college students
@@ -437,7 +437,7 @@ export default async function CountyPage({
           </p>
           <div className="flex gap-3 justify-center flex-wrap">
             <Link
-              href="https://syllioai.com/auth"
+              href="https://app.syllioai.com/auth"
               className="bg-violet-brand text-white px-6 py-3 rounded-full font-semibold hover:bg-violet-dark transition-colors"
             >
               Create your free account

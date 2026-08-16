@@ -73,7 +73,7 @@ export default async function LMSIntegrationPage({
             Market share: {lms.marketShare} · Vendor: {lms.vendor}
           </p>
           <Link
-            href="https://syllioai.com/auth"
+            href="https://app.syllioai.com/auth"
             className="bg-violet-brand text-white px-6 py-3 rounded-full font-semibold hover:bg-violet-dark transition-colors"
           >
             Connect {lms.name} to Syllio
@@ -120,7 +120,7 @@ export default async function LMSIntegrationPage({
             Free for students. Teacher plans from $5.99/month.
           </p>
           <Link
-            href="https://syllioai.com/auth"
+            href="https://app.syllioai.com/auth"
             className="bg-violet-brand text-white px-6 py-3 rounded-full font-semibold hover:bg-violet-dark transition-colors inline-block"
           >
             Get started free

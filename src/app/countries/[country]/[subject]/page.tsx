@@ -88,7 +88,7 @@ export default async function CountrySubjectPage({
           </p>
           <div className="flex gap-3 flex-wrap">
             <Link
-              href="https://syllioai.com/auth"
+              href="https://app.syllioai.com/auth"
               className="bg-violet-brand text-white px-6 py-3 rounded-full font-semibold hover:bg-violet-dark transition-colors"
             >
               Scan my {subject.name} syllabus free
@@ -231,7 +231,7 @@ export default async function CountrySubjectPage({
             Free for students. No credit card. Works anywhere in the world.
           </p>
           <Link
-            href="https://syllioai.com/auth"
+            href="https://app.syllioai.com/auth"
             className="bg-violet-brand text-white px-6 py-3 rounded-full font-semibold hover:bg-violet-dark transition-colors inline-block"
           >
             Get started free

@@ -80,7 +80,7 @@ export default async function IntlSchoolPage({
           </p>
           <div className="flex gap-3 flex-wrap">
             <Link
-              href="https://syllioai.com/auth"
+              href="https://app.syllioai.com/auth"
               className="bg-teal-brand text-slate-950 px-6 py-3 rounded-full font-semibold hover:opacity-90 transition-opacity"
             >
               Get Syllio free
@@ -190,7 +190,7 @@ export default async function IntlSchoolPage({
             Free for students. No credit card. Works with {school.curriculum}.
           </p>
           <Link
-            href="https://syllioai.com/auth"
+            href="https://app.syllioai.com/auth"
             className="bg-teal-brand text-slate-950 px-6 py-3 rounded-full font-semibold hover:opacity-90 transition-opacity inline-block"
           >
             Get started free

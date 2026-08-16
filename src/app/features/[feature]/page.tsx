@@ -105,7 +105,7 @@ export default async function FeaturePage({
           </p>
           <div className="flex gap-3 flex-wrap">
             <Link
-              href="https://syllioai.com/auth"
+              href="https://app.syllioai.com/auth"
               className="bg-violet-brand text-white px-6 py-3 rounded-full font-semibold hover:bg-violet-dark transition-colors"
             >
               Try {feature.name} free
@@ -187,7 +187,7 @@ export default async function FeaturePage({
           </h2>
           <p className="text-slate-400 text-sm mb-5">{feature.price}</p>
           <Link
-            href="https://syllioai.com/auth"
+            href="https://app.syllioai.com/auth"
             className="bg-violet-brand text-white px-6 py-3 rounded-full font-semibold hover:bg-violet-dark transition-colors inline-block"
           >
             Get started free
