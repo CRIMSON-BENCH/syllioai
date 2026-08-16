@@ -160,10 +160,34 @@ export function getSubjectsByCategory(category: string): Subject[] {
 }
 
 const TOP_SUBJECT_SLUGS = new Set([
-  'algebra', 'calculus', 'statistics', 'biology', 'chemistry', 'physics',
-  'computer-science', 'english', 'psychology', 'economics', 'history',
-  'political-science', 'sociology', 'philosophy', 'accounting', 'finance',
-  'nursing-fundamentals', 'spanish', 'writing', 'business-law',
+  // STEM (28)
+  'algebra', 'geometry', 'trigonometry', 'pre-calculus', 'calculus', 'ap-calculus',
+  'statistics', 'ap-statistics', 'linear-algebra', 'biology', 'ap-biology',
+  'chemistry', 'ap-chemistry', 'physics', 'ap-physics', 'environmental-science',
+  'computer-science', 'ap-computer-science', 'data-structures', 'algorithms',
+  'machine-learning', 'organic-chemistry', 'biochemistry', 'genetics',
+  'anatomy-and-physiology', 'electrical-engineering', 'mechanical-engineering',
+  'civil-engineering',
+  // Humanities (14)
+  'english-literature', 'ap-english-literature', 'creative-writing',
+  'world-history', 'ap-world-history', 'us-history', 'ap-us-history',
+  'european-history', 'art-history', 'philosophy', 'ethics',
+  'religious-studies', 'linguistics', 'comparative-literature',
+  // Social Sciences (12)
+  'psychology', 'ap-psychology', 'sociology', 'anthropology',
+  'economics', 'ap-economics', 'macroeconomics', 'microeconomics',
+  'political-science', 'international-relations', 'geography', 'criminal-justice',
+  // Arts (8)
+  'music-theory', 'visual-art', 'photography', 'film-studies',
+  'theater', 'graphic-design', 'digital-media', 'drawing',
+  // Business (8)
+  'introduction-to-business', 'marketing', 'accounting', 'finance',
+  'business-law', 'entrepreneurship', 'management', 'financial-accounting',
+  // Health (5)
+  'nutrition', 'public-health', 'nursing-fundamentals', 'kinesiology',
+  'medical-terminology',
+  // Languages (5)
+  'spanish', 'french', 'mandarin-chinese', 'japanese', 'arabic',
 ]);
 
 export const topSubjects: Subject[] = subjects.filter(
