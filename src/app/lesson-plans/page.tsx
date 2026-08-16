@@ -3,6 +3,7 @@ import Link from "next/link";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import { SUBJECT_CATEGORIES, getSubjectsByCategory } from "@/lib/subjects";
+import MonetizationStrip from "@/components/MonetizationStrip";
 
 export const metadata: Metadata = {
   title: "AI Lesson Plan Generator — All Grades & Subjects | Syllio",
@@ -38,6 +39,8 @@ export default function LessonPlansPage() {
           Generate a complete, week-by-week lesson plan for any grade and subject. Syllio AI writes
           the objectives, activities, and assessments — you customize and export.
         </p>
+
+        <MonetizationStrip variant="teacher" className="mb-10" />
 
         <h2 className="text-xs font-bold uppercase tracking-widest text-slate-400 mb-4">Browse by Grade</h2>
         <div className="grid grid-cols-3 sm:grid-cols-5 gap-2 mb-12">

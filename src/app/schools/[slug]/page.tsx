@@ -10,6 +10,7 @@ import {
   type K12School,
 } from "@/lib/k12schools";
 import { getDistrictBySlug } from "@/lib/districts";
+import MonetizationStrip from "@/components/MonetizationStrip";
 
 // ─── Static params ─────────────────────────────────────────────────────────────
 
@@ -450,6 +451,8 @@ export default async function SchoolPage({
           </dl>
         </div>
       </section>
+
+      <MonetizationStrip variant="k12-parent" />
 
       {/* ── CTA ──────────────────────────────────────────────────────────────── */}
       <section className="bg-slate-950 text-white py-20 px-4 text-center">

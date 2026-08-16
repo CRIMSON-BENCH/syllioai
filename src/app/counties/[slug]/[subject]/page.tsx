@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import Breadcrumb from "@/components/Breadcrumb";
 import { counties, getCountyBySlug, getCountiesByState } from "@/lib/counties";
 import { subjects, getSubjectBySlug } from "@/lib/subjects";
+import MonetizationStrip from "@/components/MonetizationStrip";
 
 export function generateStaticParams() {
   const params: { slug: string; subject: string }[] = [];
@@ -157,6 +158,8 @@ export default async function CountySubjectPage({
             </div>
           </section>
         )}
+
+        <MonetizationStrip variant="k12-parent" />
 
         {/* CTA */}
         <div className="bg-slate-950 text-white rounded-2xl p-8 text-center mb-8">

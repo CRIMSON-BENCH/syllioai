@@ -3,6 +3,7 @@ import Link from "next/link";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import { subjects, SUBJECT_CATEGORIES } from "@/lib/subjects";
+import MonetizationStrip from "@/components/MonetizationStrip";
 
 export const metadata: Metadata = {
   title: "Free Syllabus Templates — AI Builder by Subject | Syllio",
@@ -31,6 +32,8 @@ export default function TemplatesPage() {
             with students via a class code.
           </p>
         </div>
+
+        <MonetizationStrip variant="teacher" className="mb-10" />
 
         {byCategory.map(({ category, label, items }) => (
           <section key={category} className="mb-12">

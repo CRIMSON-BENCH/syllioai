@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import Breadcrumb from "@/components/Breadcrumb";
 import { districts, getDistrictBySlug, getDistrictsByState } from "@/lib/districts";
 import { subjects, getSubjectBySlug } from "@/lib/subjects";
+import MonetizationStrip from "@/components/MonetizationStrip";
 
 export function generateStaticParams() {
   const params: { slug: string; subject: string }[] = [];
@@ -179,6 +180,8 @@ export default async function DistrictSubjectPage({
             </div>
           </section>
         )}
+
+        <MonetizationStrip variant="district" />
 
         <div className="bg-slate-950 text-white rounded-2xl p-8 text-center mb-8">
           <h2 className="text-xl font-bold mb-2">

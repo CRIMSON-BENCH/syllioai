@@ -5,6 +5,7 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import Breadcrumb from "@/components/Breadcrumb";
 import { getSubjectBySlug, subjects, getSubjectsByCategory } from "@/lib/subjects";
+import MonetizationStrip from "@/components/MonetizationStrip";
 
 export function generateStaticParams() {
   return subjects.map((s) => ({ subject: s.slug }));
@@ -195,6 +196,7 @@ export default async function SubjectTemplatePage({
         )}
 
         {/* CTA */}
+        <MonetizationStrip variant="teacher" />
         <div className="bg-slate-950 text-white rounded-2xl p-8 text-center mb-8">
           <h2 className="text-xl font-bold mb-2">
             Build your {subject.name} syllabus in 60 seconds

@@ -5,6 +5,7 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import Breadcrumb from "@/components/Breadcrumb";
 import { getSubjectBySlug, subjects } from "@/lib/subjects";
+import MonetizationStrip from "@/components/MonetizationStrip";
 
 const GRADES = [
   { slug: "kindergarten", label: "Kindergarten", short: "K", level: "k12" },
@@ -185,6 +186,7 @@ export default async function LessonPlanPage({
         </section>
 
         {/* CTA */}
+        <MonetizationStrip variant="teacher" />
         <div className="bg-slate-950 text-white rounded-2xl p-8 text-center mb-8">
           <h2 className="text-xl font-bold mb-2">
             Generate your {grade.label} {subject.name} lesson plan

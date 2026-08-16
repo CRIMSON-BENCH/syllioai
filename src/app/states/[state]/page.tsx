@@ -7,6 +7,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import { getStateBySlug, getAllStateSlugs, USState } from "@/lib/states";
 import { getUniversitiesByState } from "@/lib/universities";
 import { getDistrictsByState } from "@/lib/districts";
+import MonetizationStrip from "@/components/MonetizationStrip";
 
 export function generateStaticParams() {
   return getAllStateSlugs();
@@ -312,6 +313,8 @@ export default async function StatePage({ params }: Props) {
           </dl>
         </div>
       </section>
+
+      <MonetizationStrip variant="district" />
 
       {/* CTA */}
       <section className="bg-slate-950 text-white py-16 px-4 text-center">

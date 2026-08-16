@@ -9,6 +9,7 @@ import {
   getAllInternationalSchoolSlugs,
   getInternationalSchoolsByCity,
 } from "@/lib/international-schools";
+import MonetizationStrip from "@/components/MonetizationStrip";
 
 export function generateStaticParams() {
   return getAllInternationalSchoolSlugs();
@@ -178,6 +179,8 @@ export default async function IntlSchoolPage({
             </div>
           </section>
         )}
+
+        <MonetizationStrip variant="k12-parent" />
 
         <div className="bg-slate-950 text-white rounded-2xl p-8 text-center mb-8">
           <h2 className="text-xl font-bold mb-2">

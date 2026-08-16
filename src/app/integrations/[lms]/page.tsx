@@ -5,6 +5,7 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import Breadcrumb from "@/components/Breadcrumb";
 import { getLMSBySlug, lmsIntegrations } from "@/lib/lms";
+import MonetizationStrip from "@/components/MonetizationStrip";
 
 export function generateStaticParams() {
   return lmsIntegrations.map((l) => ({ lms: l.slug }));
@@ -112,6 +113,7 @@ export default async function LMSIntegrationPage({
         </section>
 
         {/* CTA */}
+        <MonetizationStrip variant="api" />
         <div className="bg-slate-950 text-white rounded-2xl p-8 text-center mb-8">
           <h2 className="text-xl font-bold mb-2">Sync Syllio with {lms.name} today</h2>
           <p className="text-slate-400 text-sm mb-5">

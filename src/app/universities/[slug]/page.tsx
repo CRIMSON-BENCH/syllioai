@@ -10,6 +10,7 @@ import {
   getUniversitiesByState,
   type University,
 } from "@/lib/universities";
+import MonetizationStrip from "@/components/MonetizationStrip";
 
 // ─── Static params ─────────────────────────────────────────────────────────────
 
@@ -411,6 +412,8 @@ export default async function UniversityPage({
           </div>
         </section>
       )}
+
+      <MonetizationStrip variant="counselor" />
 
       {/* ── CTA ──────────────────────────────────────────────────────────────── */}
       <section className="bg-slate-950 text-white py-20 px-4 text-center">

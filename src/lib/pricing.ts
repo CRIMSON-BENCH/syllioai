@@ -171,8 +171,6 @@ export const pricingTiers: PricingTier[] = [
       "Contact for annual pricing",
     ],
   },
-];
-
   {
     id: "parent-portal",
     name: "Parent Portal",

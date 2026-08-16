@@ -9,6 +9,7 @@ import {
   getAllCompetitorSlugs,
   Competitor,
 } from "@/lib/competitors";
+import MonetizationStrip from "@/components/MonetizationStrip";
 
 export function generateStaticParams() {
   return getAllCompetitorSlugs();
@@ -414,6 +415,8 @@ export default async function CompareCompetitorPage({ params }: Props) {
           </dl>
         </div>
       </section>
+
+      <MonetizationStrip variant="student" />
 
       {/* CTA */}
       <section className="bg-slate-950 text-white py-16 px-4 text-center">
